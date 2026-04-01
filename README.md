@@ -35,6 +35,26 @@ The goal of this project is to not only predict which employees are likely to le
 * Identified workload imbalance patterns (underutilized vs overworked employees)
 * Used correlation analysis and visualizations to understand key drivers
 
+## Visualizations
+
+### Correlation Heatmap
+![Correlation Heatmap](turnover_heatmap.png)
+
+The heatmap shows how different features relate to employee turnover.
+
+---
+
+### Project Count by Employee Turnover
+![Project Count](turnover_project_count.png)
+
+Employees with very low or very high project counts show higher turnover patterns.
+
+---
+
+### ROC Curve Comparison
+![ROC Curve](turnover_roc_curve.png)
+
+This compares model performance and shows how well each model predicts employee turnover.
 ### Key EDA Insights
 
 * Employees working too few or too many projects had higher turnover
